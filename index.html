@@ -16,9 +16,9 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/index.css">
 
-	<!-- {% include google_analytics.html %} -->
+	{% include google_analytics.html %}
 	
-	<!-- {% seo %} -->
+	{% seo %}
 </head>
 
 <body>
@@ -54,11 +54,11 @@
 			</div>
 			<div class="col-md-2 mt-4 mt-md-0" id="awards">
 				<h4 class="text-center">Awards</h4>
-				<ul class="list-group list-group-flush mx-5 mx-md-0">
+				<!-- <ul class="list-group list-group-flush mx-5 mx-md-0">
 					{% for award in site.data.awards %}
 					<li class="list-group-item px-1">{{ award }}</li>
 					{% endfor %}
-				</ul>
+				</ul> -->
 			</div>
 		</section>
 
