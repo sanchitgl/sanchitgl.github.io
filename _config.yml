@@ -12,24 +12,24 @@ images_location: /assets/img
 
 tagline: Personal website of Sanchit Goel
 description: "Sanchit Goel is passionate about leveraging NLP and ML for devlopinng solutions in the Healthcare and Social science space. He is a Masters student at UCSD."
-logo: &logo /assets/img/logo.png
+# logo: &logo /assets/img/logo.png
 
-# Logo is weird, needs to be set as a site-wide default
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: *logo
+# # Logo is weird, needs to be set as a site-wide default
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       image: *logo
 
-author:
-  twitter: &twitter agdhruv
+# author:
+#   twitter: &twitter agdhruv
 
-twitter:
-  username: *twitter
-  card: summary
+# twitter:
+#   username: *twitter
+#   card: summary
 
-facebook:
-  publisher: https://facebook.com/agdhruv
+# facebook:
+#   publisher: https://facebook.com/agdhruv
 
 # webmaster_verifications:
 #   google: zrD-uBE3PiX6K7_miYRvKT3SC7pPJuxvXIhgH7kZLMY
