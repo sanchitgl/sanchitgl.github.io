@@ -1,19 +1,15 @@
 - title: Github
-  href: https://github.com/agdhruv
+  href: https://github.com/sanchitgl
   fontawesome_class: fab fa-github
 
 - title: LinkedIn
-  href: https://www.linkedin.com/in/agdhruv/
+  href: www.linkedin.com/in/-sanchitgoel
   fontawesome_class: fab fa-linkedin-in
 
 - title: Email
-  href: mailto:dhruv@infosci.cornell.edu
+  href: mailto:s5goel@ucsd.edu
   fontawesome_class: far fa-envelope
 
-- title: Resume
-  href: files/Dhruv_Agarwal_Resume.pdf
-  fontawesome_class: far fa-file-pdf
-
-- title: Google Scholar
-  href: https://scholar.google.com/citations?user=aLAvTzUAAAAJ&hl=en
-  fontawesome_class: fas fa-graduation-cap
+# - title: Resume
+#   href: files/Dhruv_Agarwal_Resume.pdf
+#   fontawesome_class: far fa-file-pdf
