@@ -4,7 +4,7 @@
 		"description": "I developed a web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) and sentiment by processing user's recent tweets.",
 		"keywords": "POS tagging, NER, Wordcloud, Regex",
 		"thumbnail": "projects/twitterazzi.gif",
-		"link": "https://github.com/sanchitgl/Twitterazzi"
+		"link": "https://github.com/sanchitgl/Twitterazzi",
 		"display": true
 	},
 	{
