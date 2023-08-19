@@ -11,10 +11,10 @@
                 </h6>
                 <p class="card-text m-0">{{ paper.authors | join: ", " }}</p>
                 <p class="card-text text-muted m-0">
-                    {{ paper.description }}
-                    <!-- {% if paper.award %}
+                    {{ paper.venue }}
+                    {% if paper.award %}
                         | <span class="text-danger fw-bold">{{ paper.award }}</span>
-                    {% endif %} -->
+                    {% endif %}
                 </p>
                 <p class="card-text m-0">
                     {% for link in paper.links %}
