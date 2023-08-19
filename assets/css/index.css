@@ -230,3 +230,21 @@ header.my-header .links {
 		height: 100px;
 	}
 }
+
+.nav-button {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-right: 3px solid transparent;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #e9ecef;
+}
+
+.nav-button.active {
+    background-color: #ffffff;
+    border-right: 3px solid #0d6efd;
+}
