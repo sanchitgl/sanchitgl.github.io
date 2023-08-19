@@ -254,9 +254,8 @@ header.my-header .links {
 }
 .job-title {
     flex: 1;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 .job-dates {
     text-align: right;
-	font-size: 1.2rem;
 }
