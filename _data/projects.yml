@@ -1,50 +1,51 @@
 [
 	{
-		"name": "Energy Sensing System",
+		"name": "Twitterazzi",
 		"description": "I developed a web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) 
   and sentiment by processing user's recent tweets.",
-		"keywords": "Arduino, Raspberry Pi, Python (+ Flask), MySQL",
-		"thumbnail": "projects/synthpop.png",
+		"keywords": "POS tagging, NER, Wordcloud, Regex",
+		"thumbnail": "projects/twitterazzi.gif",
+		"link": "https://github.com/sanchitgl/Twitterazzi"
 		"display": true
 	},
 	{
-		"name": "Fake News Challenge: Stance Detection",
-		"description": "Undertook the <a href='http://www.fakenewschallenge.org/'>Fake News Challenge</a> to distinguish between the following relationships between a news headline and an article body: unrelated, agree, disagree, discuss. We got comparable (if not better) results than winners of the competition (although we did break some rules of the competition!).",
-		"keywords": "NLP (TF-IDF, BoW), Keras, Python, SciPy stack",
-		"thumbnail": "projects/hand_gest_2.png",
-		"link": "https://github.com/agdhruv/fake-news-challenge-1",
+		"name": "Book Shelf Digitization",
+		"description": "Web app that recognizes books in a book shelf image. Sements images by 
+  identifying book spines using canny edge detection and Hough transformation. Then digitizes and extracts the text from the segmented images to identify books.",
+		"keywords": "Canny Edge Detection, Hough Transformation, Google Vision API",
+		"thumbnail": "projects/book_detect.gif",
+		"link": "https://github.com/sanchitgl/Bookshelf-digitization",
 		"display": true
 	},
 	{
 		"name": "Beating Facial Image Obfuscation",
-		"description": "A machine learning model (autoencoder) to beat common forms of facial obfuscation like blurring and pixelation. In addition, we defined another obfucation model, \"blocking\", to beat our model and hence show limitations of our model. We also tried generative models like GANs and variational autoencoders, which did not give good results for this task.",
+		"description": "Trained Convolutional Autoencoders on 13000 images to fix 3 types of Obfuscations(blur, pixelation and speckle noise in facial images.",
 		"keywords": "Keras, Python, SciPy stack",
-		"thumbnail": "projects/hand_gest_2.png",
-		"link": "https://github.com/agdhruv/reconstructing-obfuscations",
+		"thumbnail": "projects/Image_obfuscations.png",
+		"link": "https://drive.google.com/file/d/1ExM23sEi4CwLcQmmmpBdPp1DBZsECCYm/view?usp=sharing",
 		"display": true
 	},
 	{
-		"name": "VAHN: Vehicle Accident Hazard Notifier",
-		"description": "A real-time smart city system for automatic detection and reporting of road accidents, using a machine learning and vision algorithm, for reduced relief response time and avoiding chaining of accidents. Adjudged 5th best project out of 400 teams at HackIIIT-D 2018.",
+		"name": "Synthetic Population generation",
+		"description": "Worked with Dr. Debayan Gupta for studying the spread of Covid-19. Trained a DataSynthesizer model using NSS data to scale the dataset 15 times to about 15 million observations. Presented an Iterative Proportional fitting (IPF) approach to integrate census datasets for generating Synthetic Population.",
 		"keywords": "TF Object Detection API, Socket.io, Python, Node.js",
-		"thumbnail": "projects/twitterazzi.gif",
-		"link": "https://github.com/agdhruv/accident-monitoring",
+		"thumbnail": "projects/synthpop.png",
 		"display": true
 	},
 	{
-		"name": "Ashoka Bot",
-		"description": "A Messenger bot I developed as a weekend hack to give Ashoka University users information about mess menu, shuttle timings and important phone numbers. The bot has received and sent over 80k messages to over 600 unique users since it was started in March 2017.",
+		"name": "Hand Gesture Recognition",
+		"description": "Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy.",
 		"keywords": "Python (+ Flask), Facebook APIs",
 		"thumbnail": "projects/hand_gest_2.png",
-		"link": "https://github.com/agdhruv/shuttle-bot",
+		"link": "https://drive.google.com/file/d/1y8TikVtRN0LoDsY8G_ek1yrUPXbrPBmt/view?usp=sharing",
 		"display": true
 	},
 	{
-		"name": "Thor: Online Code Judge",
-		"description": "An online code judge (like CodeChef) intended to be used for programming contests within my University. This platform was eventually used by the instructor for programming assignment submissions in the CS101 course in Spring 2016.",
-		"keywords": "Python (+ Flask), PHP, MySQL",
-		"thumbnail": "projects/hand_gest_2.png",
-		"link": "https://github.com/agdhruv/thor",
+		"name": "Stocksnapshot",
+		"description": "eveloped a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. Also has a built in DCF calculator for a quick Intrinsic value calculation of a stock. Hosted the app on Heroku.",
+		"keywords": "Web scraping, UI Development",
+		"thumbnail": "projects/stock_snapshot.gif",
+		"link": "https://github.com/sanchitgl/Stock-Snapshot",
 		"display": true
 	},
 	{
