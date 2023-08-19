@@ -11,7 +11,9 @@
                 </h6>
                 <!-- <p class="card-text m-0">{{ paper.authors | join: ", " }}</p> -->
                 <p class="card-text text-muted m-0">
-                    {{ paper.venue }}
+                    {% if paper.venue %}
+                        {{ paper.venue }}
+                    {% endif %}
                 </p>
                 <p class="card-text m-0">{{ paper.description }}</p>
                 <p class="card-text m-0">
