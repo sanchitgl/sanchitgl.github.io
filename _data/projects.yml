@@ -2,7 +2,7 @@
 	{
 		"name": "Twitterazzi",
 		"description": "Developed a web app for influencer Twitter activity analysis, employing POS tagging, NER, sentiment analysis, and wordcloud generation.",
-		"keywords": "POS tagging, NER, Wordcloud, Regex",
+		"keywords": "POS tagging, NER (Spacy), Sentiment Analysis",
 		"thumbnail": "projects/twitterazzi.gif",
 		"link": "https://github.com/sanchitgl/Twitterazzi",
 		"display": true
@@ -10,7 +10,7 @@
 	{
 		"name": "Book Shelf Digitization",
 		"description": "Designed a web app that recognizes books on a bookshelf image. Segmented images using Canny edge detection and Hough transformation to identify book spines, followed by digitization and text extraction to identify books.",
-		"keywords": "Canny Edge Detection, Hough Transformation, Google Vision API",
+		"keywords": "Edge Detection, Hough Transformation, Google Vision API",
 		"thumbnail": "projects/book_detect.gif",
 		"link": "https://github.com/sanchitgl/Bookshelf-digitization",
 		"display": true
@@ -18,7 +18,7 @@
 	{
 		"name": "Facial Image Deobfuscation",
 		"description": "Trained Convolutional Autoencoders on 13,000 images to rectify three types of obfuscations (blur, pixelation, and speckle noise) in facial images.",
-		"keywords": "Keras, Python, SciPy stack",
+		"keywords": "Convolutional Autoencoders, Image Restoration"
 		"thumbnail": "projects/Image_obfuscations.png",
 		"link": "https://drive.google.com/file/d/1ExM23sEi4CwLcQmmmpBdPp1DBZsECCYm/view?usp=sharing",
 		"display": true
@@ -26,14 +26,14 @@
 	{
 		"name": "Synthetic Population generation",
 		"description": "Collaborated with Dr. Debayan Gupta to study Covid-19 spread. Employed DataSynthesizer model using NSS data to upscale the dataset 15 times, generating around 15 million observations. Presented an Iterative Proportional Fitting (IPF) approach for integrating census datasets to produce Synthetic Population.",
-		"keywords": "TF Object Detection API, Socket.io, Python, Node.js",
+		"keywords": "Data Synthesis, Population Modeling, IPF",
 		"thumbnail": "projects/synthpop.png",
 		"display": true
 	},
 	{
 		"name": "Hand Gesture Recognition",
 		"description": "Trained a Convolutional Neural Network (CNN) to identify hand gestures. Achieved a ∼98% classification accuracy across 11 gesture classes using the VPLU dataset of 1100 images.",
-		"keywords": "Python (+ Flask), Facebook APIs",
+		"keywords": "CNN, Image Classification,",
 		"thumbnail": "projects/hand_gest_2.png",
 		"link": "https://drive.google.com/file/d/1y8TikVtRN0LoDsY8G_ek1yrUPXbrPBmt/view?usp=sharing",
 		"display": true
@@ -41,16 +41,9 @@
 	{
 		"name": "Stocksnapshot",
 		"description": "Developed a stock analysis web app with over 20 years of financial data. The app used to serve over 100 monthly active users and includes a built-in DCF calculator for quick intrinsic value calculations. Hosted on Heroku.",
-		"keywords": "Web scraping, UI Development, Cloud Hosting",
+		"keywords": "Web Scraping, UI Development, Cloud Deployment",
 		"thumbnail": "projects/stock_snapshot.gif",
 		"link": "https://github.com/sanchitgl/Stock-Snapshot",
 		"display": true
-	},
-	{
-		"name": "Banjaara Website",
-		"description": "I designed and developed this website for my university's inaugural cultural fest. The website received over 10k hits in the month leading to the fest and was highly appreciated by everyone.",
-		"keywords": "HTML, CSS, JavaScript (+ jQuery), PHP",
-		"thumbnail": "projects/hand_gest_2.png",
-		"display": false
 	}
 ]
