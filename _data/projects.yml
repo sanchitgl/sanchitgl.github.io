@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Twitterazzi",
-		"description": "I developed a web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) and sentiment by processing user's recent tweets.",
+		"description": "Developed a web app for influencer Twitter activity analysis, employing POS tagging, NER, sentiment analysis, and wordcloud generation.",
 		"keywords": "POS tagging, NER, Wordcloud, Regex",
 		"thumbnail": "projects/twitterazzi.gif",
 		"link": "https://github.com/sanchitgl/Twitterazzi",
@@ -9,15 +9,15 @@
 	},
 	{
 		"name": "Book Shelf Digitization",
-		"description": "Web app that recognizes books in a book shelf image. Sements images by identifying book spines using canny edge detection and Hough transformation. Then digitizes and extracts the text from the segmented images to identify books.",
+		"description": "Designed a web app that recognizes books on a bookshelf image. Segmented images using Canny edge detection and Hough transformation to identify book spines, followed by digitization and text extraction to identify books.",
 		"keywords": "Canny Edge Detection, Hough Transformation, Google Vision API",
 		"thumbnail": "projects/book_detect.gif",
 		"link": "https://github.com/sanchitgl/Bookshelf-digitization",
 		"display": true
 	},
 	{
-		"name": "Beating Facial Image Obfuscation",
-		"description": "Trained Convolutional Autoencoders on 13000 images to fix 3 types of Obfuscations(blur, pixelation and speckle noise in facial images.",
+		"name": "Facial Image Deobfuscation",
+		"description": "Trained Convolutional Autoencoders on 13,000 images to rectify three types of obfuscations (blur, pixelation, and speckle noise) in facial images.",
 		"keywords": "Keras, Python, SciPy stack",
 		"thumbnail": "projects/Image_obfuscations.png",
 		"link": "https://drive.google.com/file/d/1ExM23sEi4CwLcQmmmpBdPp1DBZsECCYm/view?usp=sharing",
@@ -25,14 +25,14 @@
 	},
 	{
 		"name": "Synthetic Population generation",
-		"description": "Worked with Dr. Debayan Gupta for studying the spread of Covid-19. Trained a DataSynthesizer model using NSS data to scale the dataset 15 times to about 15 million observations. Presented an Iterative Proportional fitting (IPF) approach to integrate census datasets for generating Synthetic Population.",
+		"description": "Collaborated with Dr. Debayan Gupta to study Covid-19 spread. Employed DataSynthesizer model using NSS data to upscale the dataset 15 times, generating around 15 million observations. Presented an Iterative Proportional Fitting (IPF) approach for integrating census datasets to produce Synthetic Population.",
 		"keywords": "TF Object Detection API, Socket.io, Python, Node.js",
 		"thumbnail": "projects/synthpop.png",
 		"display": true
 	},
 	{
 		"name": "Hand Gesture Recognition",
-		"description": "Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy.",
+		"description": "Trained a Convolutional Neural Network (CNN) to identify hand gestures. Achieved a ∼98% classification accuracy across 11 gesture classes using the VPLU dataset of 1100 images.",
 		"keywords": "Python (+ Flask), Facebook APIs",
 		"thumbnail": "projects/hand_gest_2.png",
 		"link": "https://drive.google.com/file/d/1y8TikVtRN0LoDsY8G_ek1yrUPXbrPBmt/view?usp=sharing",
@@ -40,8 +40,8 @@
 	},
 	{
 		"name": "Stocksnapshot",
-		"description": "eveloped a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. Also has a built in DCF calculator for a quick Intrinsic value calculation of a stock. Hosted the app on Heroku.",
-		"keywords": "Web scraping, UI Development",
+		"description": "Developed a stock analysis web app with over 20 years of financial data. The app used to serve over 100 monthly active users and includes a built-in DCF calculator for quick intrinsic value calculations. Hosted on Heroku.",
+		"keywords": "Web scraping, UI Development, Cloud Hosting",
 		"thumbnail": "projects/stock_snapshot.gif",
 		"link": "https://github.com/sanchitgl/Stock-Snapshot",
 		"display": true
