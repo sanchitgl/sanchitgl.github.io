@@ -7,7 +7,7 @@
 :root {
 	--font-raleway: 'Raleway', sans-serif;
 	--font-lato: 'Lato', sans-serif;
-	--margin-window-size: 1%;
+	--margin-window-size: 1px;
 	--secondary-blue: #211ef9;
 }
 
