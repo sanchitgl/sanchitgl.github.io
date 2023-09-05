@@ -7,7 +7,7 @@
 :root {
 	--font-raleway: 'Raleway', sans-serif;
 	--font-lato: 'Lato', sans-serif;
-	--margin-window-size: 1px;
+	--margin-window-size: 0px;
 	--secondary-blue: #211ef9;
 }
 
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-	margin: var(--margin-window-size);
+	margin: 0 auto;
     max-width: none; 
 }
 
